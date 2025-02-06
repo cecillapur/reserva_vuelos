@@ -1,8 +1,10 @@
-// vue.config.js
 const path = require("path");
 
 module.exports = {
-  transpileDependencies: [], // Cambia `true` por un array vacío o una lista de dependencias
+  publicPath: process.env.NODE_ENV === "production" 
+    ? "/reserva_vuelo/" // Reemplaza 'nombre-del-repositorio' con el nombre de tu repositorio
+    : "/",
+  transpileDependencies: [],
   configureWebpack: {
     resolve: {
       alias: {
