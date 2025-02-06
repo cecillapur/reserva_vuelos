@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.fondo {
+  /* background-color: #333; */
+  background-color: #15426e;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f7eded !important;
+}
+
+.navbar-dark .navbar-brand img {
+  width: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ddd !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 2;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #1b1b1b;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #eeeeee;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  text-align: center;
+  background: url("../images/avion3.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Alinea el texto y el botón en una columna */
+}
+
+.hero .card {
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.hero h2,
+.hero h3 {
+  color: #333;
+  line-height: 175%;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 97%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #15426e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff00;
+  background-clip: border-box;
+  border: 1px solid rgb(0 0 0 / 0%);
+  border-radius: 0.25rem;
+}
+
+.boton {
+  padding: 12px 24px;
+  background-color: #15426e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 174px;
+}
+
+.boton:hover {
+  background-color: #5e5c5c;
+}
+
+.section {
+  text-align: center;
+}
+
+#services {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 18px;
+  color: #544e4e;
+  margin-bottom: 30px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+}
+
+.about-item {
+  text-align: center;
+}
+
+.about-item i {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-item i {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  /* background-color: #333; */
+  background-color: #15426e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: auto;
+}
+
+.container-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
